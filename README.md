@@ -1,10 +1,18 @@
 ## geoip2 plugin for ruTorrent
 
+![plugin-geoip2-ruTorrent](https://i.imgur.com/O9aGwmi.png)
+
 A new geoip plugin working with GeoLite2 (MaxMind DB Files)
 
-### Information
+### Informations
 
-This plugin uses [GeoIP2-php](https://maxmind.github.io/GeoIP2-php/)'s geoip2.phar (v2.9.0) and includes `GeoLite2 Country` MaxMind DB File by MaxMind, Inc.
+This plugin...
+
+- is based on the original 'geoip' plugin.
+
+- uses [GeoIP2-php](https://maxmind.github.io/GeoIP2-php/)'s geoip2.phar API (v2.9.0) by MaxMind, Inc.
+
+- includes `GeoLite2 Country` MaxMind DB File by MaxMind, Inc.
 
 ### Requirements
 
