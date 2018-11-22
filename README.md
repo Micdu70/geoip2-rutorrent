@@ -1,8 +1,8 @@
 ## geoip2 plugin for ruTorrent
 
-![plugin-geoip2-ruTorrent](https://i.imgur.com/O9aGwmi.png)
+![geoip2-plugin-for-ruTorrent](https://i.imgur.com/jCluJCe.png)
 
-A new geoip plugin working with GeoLite2 (MaxMind DB Files)
+    A new geoip plugin working with GeoLite2 (MaxMind DB Files)
 
 ### Informations
 
@@ -18,12 +18,12 @@ This plugin...
 
 To be able to use the plugin:
 
-* PHP 'json' extension installed
+* PHP 'json' extension
 
 To be able to display country/city:
 
 * PHP >= 5.4.0
-* PHP 'phar' extension installed
+* PHP 'phar' extension
 
 ### Installation
 
@@ -39,7 +39,7 @@ To clone directly from this git repository, run this command in the rutorrent/pl
 
 > **Info:** `GeoLite2 Country` database (2018-11-20) included.
 
-### How-to update or change database
+### Update or change database
 
 GeoLite2 Free Downloadable Databases: https://dev.maxmind.com/geoip/geoip2/geolite2/#Downloads
 
