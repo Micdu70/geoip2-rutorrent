@@ -19,11 +19,14 @@
 		$cityDbFile = "database/GeoLite2-City.mmdb";
 		$countryDbFile = "database/GeoLite2-Country.mmdb";
 
-		if(file_exists($cityDbFile))
+		if(is_file($cityDbFile) && is_readable($cityDbFile))
+		{
 			$reader = new Reader($cityDbFile);
+			$useCityDb = true;
+		}
 		else
 		{
-			if(file_exists($countryDbFile))
+			if(is_file($countryDbFile) && is_readable($countryDbFile))
 				$reader = new Reader($countryDbFile);
 			else
 				$retrieveCountry = false;
@@ -56,7 +59,7 @@
 					{
 						$country = '';
 						try{
-							if(file_exists($cityDbFile))
+							if(isset($useCityDb))
 							{
 								if(substr($value, 0, 1) == '[')
 									$record = $reader->city(substr($value, 1, -1));
@@ -73,7 +76,7 @@
 						} catch(GeoIp2\Exception\AddressNotFoundException $e){$isNotFound = true;}
 						if(!isset($isNotFound))
 						{
-							if(file_exists($cityDbFile))
+							if(isset($useCityDb))
 							{
 								$c = $record->city->name;
 								if(!empty($c))
