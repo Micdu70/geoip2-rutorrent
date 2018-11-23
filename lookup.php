@@ -14,7 +14,7 @@
 	$retrieveCountry = ($retrieveCountry && PHP_VERSION_ID >= 50400 && extension_loaded('phar'));
 	if($retrieveCountry)
 	{
-		require 'geoip2.phar';
+		require_once 'geoip2.phar';
 
 		$cityDbFile = "database/GeoLite2-City.mmdb";
 		$countryDbFile = "database/GeoLite2-Country.mmdb";
