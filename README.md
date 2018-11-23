@@ -2,7 +2,7 @@
 
 ![geoip2-plugin-for-ruTorrent](https://i.imgur.com/jCluJCe.png)
 
-    A new geoip plugin working with GeoLite2 (MaxMind DB Files)
+*A new geoip plugin working with GeoLite2 (MaxMind DB Files)*
 
 ### Informations
 
@@ -35,7 +35,7 @@ To clone directly from this git repository, run this command in the rutorrent/pl
 
 > **Note:** It is important that the plugin directory is named 'geoip2' so that the supporting files are loaded correctly.
 
-> **Warning:** Disable or remove the original 'geoip' plugin.
+> **You need to disable or remove the original 'geoip' plugin to allow this one to work.**
 
 > **Info:** `GeoLite2 Country` database (2018-11-20) included.
 
