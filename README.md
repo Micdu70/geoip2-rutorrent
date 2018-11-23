@@ -12,7 +12,8 @@ This plugin...
 
 - uses [GeoIP2-php](https://maxmind.github.io/GeoIP2-php/)'s geoip2.phar API (v2.9.0) by MaxMind, Inc.
 
-- includes `GeoLite2 Country` MaxMind DB File by MaxMind, Inc.
+- includes GeoLite2 data created by MaxMind, available from
+<a href="http://www.maxmind.com">http://www.maxmind.com</a>.
 
 ### Requirements
 
