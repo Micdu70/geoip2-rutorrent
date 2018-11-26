@@ -12,6 +12,8 @@
  theUILang.peerCommentLabel	= "为这个 peer 添加新注释";
  theUILang.commentName		= "注释";
  theUILang.countryName		= "国家";
+ theUILang.databaseNotFound	= "GeoIP2 plugin: GeoLite2 database (Country/City) not found or not readable.";
+ theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
  theUILang.country[ "ac" ] = "阿森松岛";

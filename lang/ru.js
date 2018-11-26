@@ -12,6 +12,8 @@
  theUILang.peerCommentLabel	= "Введите комментарий";
  theUILang.commentName		= "Комментарий";
  theUILang.countryName		= "Страна";
+ theUILang.databaseNotFound	= "GeoIP2 plugin: GeoLite2 database (Country/City) not found or not readable.";
+ theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
  theUILang.country[ "ac" ] = "Остров Вознесения";

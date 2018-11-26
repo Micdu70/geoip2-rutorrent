@@ -12,6 +12,8 @@
  theUILang.peerCommentLabel	= "Entrer un nouveau commentaire pour le peer";
  theUILang.commentName		= "Commentaire";
  theUILang.countryName		= "Pays";
+ theUILang.databaseNotFound	= "Plug-in 'GeoIP2': base de données GeoLite2 ( Country / City ) introuvable ou impossible à lire.";
+ theUILang.databaseError	= "Plug-in 'GeoIP2': erreur avec la base de données GeoLite2 trouvée ( mauvaise ou corrompue ).";
 
  theUILang.country = new Array();
  theUILang.country[ "ac" ] = "Île de l'Ascension";

@@ -195,6 +195,7 @@ if(plugin.canChangeMenu() && plugin.retrieveComments)
 		theWebUI.updatePeers();
 	}
 }
+
 plugin.onLangLoaded = function()
 {
 	if(plugin.retrieveComments)

@@ -1,10 +1,10 @@
 <?php
+	use GeoIp2\Database\Reader;
+
 	set_time_limit(0);
 	require_once( '../../php/util.php' );
 	require_once( "sqlite.php" );
 	eval( getPluginConf( 'geoip2' ) );
-
-	use GeoIp2\Database\Reader;
 
 	function isValidCode( $country )
 	{
@@ -16,21 +16,23 @@
 	{
 		require_once 'geoip2.phar';
 
-		$cityDbFile = "database/GeoLite2-City.mmdb";
-		$countryDbFile = "database/GeoLite2-Country.mmdb";
+		$cityDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-City.mmdb';
+		$countryDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-Country.mmdb';
 
-		if(is_file($cityDbFile) && is_readable($cityDbFile))
-		{
-			$reader = new Reader($cityDbFile);
-			$useCityDb = true;
-		}
-		else
-		{
-			if(is_file($countryDbFile) && is_readable($countryDbFile))
-				$reader = new Reader($countryDbFile);
+		try{
+			if(is_file($cityDbFile) && is_readable($cityDbFile))
+			{
+				$reader = new Reader($cityDbFile);
+				$useCityDb = true;
+			}
 			else
-				$retrieveCountry = false;
-		}
+			{
+				if(is_file($countryDbFile) && is_readable($countryDbFile))
+					$reader = new Reader($countryDbFile);
+				else
+					$retrieveCountry = false;
+			}
+		} catch(Exception $e){$retrieveCountry = false;}
 	}
 	$retrieveComments = ($retrieveComments && sqlite_exists());
 	$ret = array();
@@ -73,7 +75,7 @@
 								else
 									$record = $reader->country($value);
 							}
-						} catch(GeoIp2\Exception\AddressNotFoundException $e){$isNotFound = true;}
+						} catch(Exception $e){$isNotFound = true;}
 						if(!isset($isNotFound))
 						{
 							if(isset($useCityDb))

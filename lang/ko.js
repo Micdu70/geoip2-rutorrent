@@ -12,6 +12,8 @@
  theUILang.peerCommentLabel	= "새 피어 메모 입력";
  theUILang.commentName		= "메모";
  theUILang.countryName		= "국가";
+ theUILang.databaseNotFound	= "GeoIP2 plugin: GeoLite2 database (Country/City) not found or not readable.";
+ theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
  theUILang.country[ "ac" ] = "어센션 섬";
