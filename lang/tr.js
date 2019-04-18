@@ -16,7 +16,6 @@
  theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Ascension Adası";
  theUILang.country[ "ad" ] = "Andorra";
  theUILang.country[ "ae" ] = "Birleşik Arap Emirlikleri";
  theUILang.country[ "af" ] = "Afganistan";
@@ -24,7 +23,6 @@
  theUILang.country[ "ai" ] = "Anguilla";
  theUILang.country[ "al" ] = "Arnavutluk";
  theUILang.country[ "am" ] = "Ermenistan";
- theUILang.country[ "an" ] = "Hollanda Antilleri";
  theUILang.country[ "ao" ] = "Angola";
  theUILang.country[ "aq" ] = "Antarktika";
  theUILang.country[ "ar" ] = "Arjantin";
@@ -43,6 +41,7 @@
  theUILang.country[ "bh" ] = "Bahreyn";
  theUILang.country[ "bi" ] = "Burundi";
  theUILang.country[ "bj" ] = "Benin";
+ theUILang.country[ "bl" ] = "Saint Barthélemy";
  theUILang.country[ "bm" ] = "Bermuda";
  theUILang.country[ "bn" ] = "Brunei";
  theUILang.country[ "bo" ] = "Bolivya";
@@ -158,6 +157,7 @@
  theUILang.country[ "mc" ] = "Monako";
  theUILang.country[ "md" ] = "Moldova";
  theUILang.country[ "me" ] = "Karadağ";
+ theUILang.country[ "mf" ] = "Saint Martin";
  theUILang.country[ "mg" ] = "Madagaskar";
  theUILang.country[ "mh" ] = "Marshall Adaları";
  theUILang.country[ "mk" ] = "Kuzey Makedonya";
@@ -226,7 +226,6 @@
  theUILang.country[ "sr" ] = "Surinam";
  theUILang.country[ "ss" ] = "Güney Sudan";
  theUILang.country[ "st" ] = "Sao Tome ve Principe";
- theUILang.country[ "su" ] = "Rusya";
  theUILang.country[ "sv" ] = "El Salvador";
  theUILang.country[ "sx" ] = "Sint Maarten";
  theUILang.country[ "sy" ] = "Suriye";
@@ -249,7 +248,7 @@
  theUILang.country[ "tz" ] = "Tanzanya";
  theUILang.country[ "ua" ] = "Ukrayna";
  theUILang.country[ "ug" ] = "Uganda";
- theUILang.country[ "uk" ] = "Birleşik Krallık";
+ theUILang.country[ "um" ] = "Amerika Birleşik Devletleri'nin küçük dış adaları";
  theUILang.country[ "un" ] = "Bilinmeyen";
  theUILang.country[ "us" ] = "Amerika Birleşik Devletleri";
  theUILang.country[ "uy" ] = "Uruguay";

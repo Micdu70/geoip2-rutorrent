@@ -16,15 +16,13 @@
  theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Ascension";
  theUILang.country[ "ad" ] = "Andorra";
  theUILang.country[ "ae" ] = "Spojené arabské emiráty";
  theUILang.country[ "af" ] = "Afganistan";
  theUILang.country[ "ag" ] = "Antigua a Barbuda";
  theUILang.country[ "ai" ] = "Anguilla";
- theUILang.country[ "al" ] = "Albánsko", 
+ theUILang.country[ "al" ] = "Albánsko";
  theUILang.country[ "am" ] = "Arménsko";
- theUILang.country[ "an" ] = "Holandské Antily";
  theUILang.country[ "ao" ] = "Angola";
  theUILang.country[ "aq" ] = "Antarktída";
  theUILang.country[ "ar" ] = "Argentína";
@@ -43,6 +41,7 @@
  theUILang.country[ "bh" ] = "Bahrajn";
  theUILang.country[ "bi" ] = "Burundi";
  theUILang.country[ "bj" ] = "Benin";
+ theUILang.country[ "bl" ] = "Svätý Bartolomej";
  theUILang.country[ "bm" ] = "Bermudy";
  theUILang.country[ "bn" ] = "Brunej";
  theUILang.country[ "bo" ] = "Bolívia";
@@ -93,7 +92,7 @@
  theUILang.country[ "fm" ] = "Mikronézie";
  theUILang.country[ "fo" ] = "Faerské ostrovy";
  theUILang.country[ "fr" ] = "Francúzsko";
- theUILang.country[ "ga" ] = "Gabon", 
+ theUILang.country[ "ga" ] = "Gabon";
  theUILang.country[ "gb" ] = "Spojené kráľovstvo";
  theUILang.country[ "gd" ] = "Grenada";
  theUILang.country[ "ge" ] = "Gruzínsko";
@@ -103,19 +102,19 @@
  theUILang.country[ "gi" ] = "Gibraltar";
  theUILang.country[ "gl" ] = "Grónsko";
  theUILang.country[ "gm" ] = "Gambia";
- theUILang.country[ "gn" ] = "Guinea", 
+ theUILang.country[ "gn" ] = "Guinea";
  theUILang.country[ "gp" ] = "Guadeloupe";
  theUILang.country[ "gq" ] = "Rovníková Guinea";
  theUILang.country[ "gr" ] = "Grécko";
  theUILang.country[ "gs" ] = "Južná Georgia a Južné Sandwichove ostrovy";
  theUILang.country[ "gt" ] = "Guatemala";
  theUILang.country[ "gu" ] = "Guam";
- theUILang.country[ "gw" ] = "Guinea-Bissau",
+ theUILang.country[ "gw" ] = "Guinea-Bissau";
  theUILang.country[ "gy" ] = "Guyana";
  theUILang.country[ "hk" ] = "Hongkong";
  theUILang.country[ "hm" ] = "Heardov ostrov a McDonaldove ostrovy";
  theUILang.country[ "hn" ] = "Honduras";
- theUILang.country[ "hr" ] = "Chorvátsko",
+ theUILang.country[ "hr" ] = "Chorvátsko";
  theUILang.country[ "ht" ] = "Haiti";
  theUILang.country[ "hu" ] = "Maďarsko";
  theUILang.country[ "id" ] = "Indonézia";
@@ -135,7 +134,7 @@
  theUILang.country[ "ke" ] = "Keňa";
  theUILang.country[ "kg" ] = "Kirgizsko";
  theUILang.country[ "kh" ] = "Kambodža";
- theUILang.country[ "ki" ] = "Kiribati", 
+ theUILang.country[ "ki" ] = "Kiribati";
  theUILang.country[ "km" ] = "Komory";
  theUILang.country[ "kn" ] = "Svätý Krištof a Nevis";
  theUILang.country[ "kp" ] = "Severná Kórea";
@@ -158,6 +157,7 @@
  theUILang.country[ "mc" ] = "Monako";
  theUILang.country[ "md" ] = "Moldavsko";
  theUILang.country[ "me" ] = "Čierna Hora";
+ theUILang.country[ "mf" ] = "Saint Martin";
  theUILang.country[ "mg" ] = "Madagaskar";
  theUILang.country[ "mh" ] = "Marshallove ostrovy";
  theUILang.country[ "mk" ] = "Severné Macedónsko";
@@ -175,7 +175,7 @@
  theUILang.country[ "mw" ] = "Malawi";
  theUILang.country[ "mx" ] = "Mexiko";
  theUILang.country[ "my" ] = "Malajzia";
- theUILang.country[ "mz" ] = "Mozambik", 
+ theUILang.country[ "mz" ] = "Mozambik";
  theUILang.country[ "na" ] = "Namíbia";
  theUILang.country[ "nc" ] = "Nová Kaledónia";
  theUILang.country[ "ne" ] = "Niger";
@@ -183,7 +183,7 @@
  theUILang.country[ "ng" ] = "Nigéria";
  theUILang.country[ "ni" ] = "Nikaragua";
  theUILang.country[ "nl" ] = "Holandsko";
- theUILang.country[ "no" ] = "Nórsko", 
+ theUILang.country[ "no" ] = "Nórsko";
  theUILang.country[ "np" ] = "Nepál";
  theUILang.country[ "nr" ] = "Nauru";
  theUILang.country[ "nu" ] = "Niue";
@@ -192,7 +192,7 @@
  theUILang.country[ "pa" ] = "Panama";
  theUILang.country[ "pe" ] = "Peru";
  theUILang.country[ "pf" ] = "Francúzska Polynézia";
- theUILang.country[ "pg" ] = "Papua-Nová Guinea", 
+ theUILang.country[ "pg" ] = "Papua-Nová Guinea";
  theUILang.country[ "ph" ] = "Filipíny";
  theUILang.country[ "pk" ] = "Pakistanu";
  theUILang.country[ "pl" ] = "Poľsko";
@@ -211,7 +211,7 @@
  theUILang.country[ "rw" ] = "Rwanda";
  theUILang.country[ "sa" ] = "Saudská Arábia";
  theUILang.country[ "sb" ] = "Šalamúnove ostrovy";
- theUILang.country[ "sc" ] = "Seychely", 
+ theUILang.country[ "sc" ] = "Seychely";
  theUILang.country[ "sd" ] = "Sudán";
  theUILang.country[ "se" ] = "Švédsko";
  theUILang.country[ "sg" ] = "Singapur";
@@ -226,7 +226,6 @@
  theUILang.country[ "sr" ] = "Surinam";
  theUILang.country[ "ss" ] = "Južného Sudánu";
  theUILang.country[ "st" ] = "Svätý Tomáš a Princov ostrov";
- theUILang.country[ "su" ] = "Rusko";
  theUILang.country[ "sv" ] = "Salvádor";
  theUILang.country[ "sx" ] = "Sint Maarten";
  theUILang.country[ "sy" ] = "Sýria";
@@ -246,10 +245,10 @@
  theUILang.country[ "tt" ] = "Trinidad a Tobago";
  theUILang.country[ "tv" ] = "Tuvalu";
  theUILang.country[ "tw" ] = "Tchaj-wan";
- theUILang.country[ "tz" ] = "Tanzánia", 
+ theUILang.country[ "tz" ] = "Tanzánia";
  theUILang.country[ "ua" ] = "Ukrajina";
  theUILang.country[ "ug" ] = "Uganda";
- theUILang.country[ "uk" ] = "Spojené kráľovstvo";
+ theUILang.country[ "um" ] = "Menšie odľahlé ostrovy USA";
  theUILang.country[ "un" ] = "Neznámy";
  theUILang.country[ "us" ] = "Spojené štáty";
  theUILang.country[ "uy" ] = "Uruguaj";
@@ -259,7 +258,7 @@
  theUILang.country[ "ve" ] = "Venezuela";
  theUILang.country[ "vg" ] = "Britské Panenské ostrovy";
  theUILang.country[ "vi" ] = "Americké Panenské ostrovy";
- theUILang.country[ "vn" ] = "Viet Nam";
+ theUILang.country[ "vn" ] = "Vietnam";
  theUILang.country[ "vu" ] = "Vanuatu";
  theUILang.country[ "wf" ] = "Wallis a Futuna";
  theUILang.country[ "ws" ] = "Samoa";

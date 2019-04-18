@@ -16,7 +16,6 @@
  theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Debesbraukšanas Sala";
  theUILang.country[ "ad" ] = "Andora";
  theUILang.country[ "ae" ] = "Apvienotie Arābu Emirāti";
  theUILang.country[ "af" ] = "Afganistānā";
@@ -24,7 +23,6 @@
  theUILang.country[ "ai" ] = "Angilja";
  theUILang.country[ "al" ] = "Albānija";
  theUILang.country[ "am" ] = "Armēnija";
- theUILang.country[ "an" ] = "Nīderlandes Antiļu Salas";
  theUILang.country[ "ao" ] = "Angola";
  theUILang.country[ "aq" ] = "Antarktīda";
  theUILang.country[ "ar" ] = "Argentīna";
@@ -43,6 +41,7 @@
  theUILang.country[ "bh" ] = "Bahreina";
  theUILang.country[ "bi" ] = "Burundi";
  theUILang.country[ "bj" ] = "Benina";
+ theUILang.country[ "bl" ] = "Senbartelmī";
  theUILang.country[ "bm" ] = "Bermuda";
  theUILang.country[ "bn" ] = "Bruneja";
  theUILang.country[ "bo" ] = "Bolīvija";
@@ -120,7 +119,7 @@
  theUILang.country[ "hu" ] = "Ungārija";
  theUILang.country[ "id" ] = "Indonēzija";
  theUILang.country[ "ie" ] = "Īrija";
- theUILang.country[ "il" ] = "Izraēla" 
+ theUILang.country[ "il" ] = "Izraēla";
  theUILang.country[ "im" ] = "Menas Sala";
  theUILang.country[ "in" ] = "Indija";
  theUILang.country[ "io" ] = "Britu Indijas okeāna teritorija";
@@ -158,6 +157,7 @@
  theUILang.country[ "mc" ] = "Monaco";
  theUILang.country[ "md" ] = "Moldova";
  theUILang.country[ "me" ] = "Melnkalne";
+ theUILang.country[ "mf" ] = "Senmartēna";
  theUILang.country[ "mg" ] = "Madagaskara";
  theUILang.country[ "mh" ] = "Maršala Salas";
  theUILang.country[ "mk" ] = "Ziemeļmaķedonija";
@@ -226,7 +226,6 @@
  theUILang.country[ "sr" ] = "Surinama";
  theUILang.country[ "ss" ] = "Dienvidsudānā";
  theUILang.country[ "st" ] = "Santome un Prinsipi";
- theUILang.country[ "su" ] = "Krievija";
  theUILang.country[ "sv" ] = "El Salvador";
  theUILang.country[ "sx" ] = "Sintmārtena";
  theUILang.country[ "sy" ] = "Sīrija";
@@ -242,14 +241,14 @@
  theUILang.country[ "tm" ] = "Turkmenistāna";
  theUILang.country[ "tn" ] = "Tunisija";
  theUILang.country[ "to" ] = "Tonga";
- theUILang.country[ "tr" ] = "Turcija", 
+ theUILang.country[ "tr" ] = "Turcija";
  theUILang.country[ "tt" ] = "Trinidāda un Tobāgo";
  theUILang.country[ "tv" ] = "Tuvalu";
  theUILang.country[ "tw" ] = "Taivāna";
  theUILang.country[ "tz" ] = "Tanzānija";
  theUILang.country[ "ua" ] = "Ukraina";
  theUILang.country[ "ug" ] = "Uganda";
- theUILang.country[ "uk" ] = "Apvienotā Karaliste";
+ theUILang.country[ "um" ] = "ASV Mazās aizjūras salas";
  theUILang.country[ "un" ] = "Nezināms";
  theUILang.country[ "us" ] = "Savienotās Valstis";
  theUILang.country[ "uy" ] = "Urugvaja";

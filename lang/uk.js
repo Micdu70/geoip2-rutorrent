@@ -16,7 +16,6 @@
  theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Острів Вознесіння";
  theUILang.country[ "ad" ] = "Андорра";
  theUILang.country[ "ae" ] = "ОАЕ";
  theUILang.country[ "af" ] = "Афганістан";
@@ -24,7 +23,6 @@
  theUILang.country[ "ai" ] = "Ангілья";
  theUILang.country[ "al" ] = "Албанія";
  theUILang.country[ "am" ] = "Вірменія";
- theUILang.country[ "an" ] = "Нідерландські Антильські острови";
  theUILang.country[ "ao" ] = "Ангола";
  theUILang.country[ "aq" ] = "Антарктида";
  theUILang.country[ "ar" ] = "Аргентина";
@@ -43,6 +41,7 @@
  theUILang.country[ "bh" ] = "Бахрейн";
  theUILang.country[ "bi" ] = "Бурунді";
  theUILang.country[ "bj" ] = "Бенін";
+ theUILang.country[ "bl" ] = "Сен-Бартельмі";
  theUILang.country[ "bm" ] = "Бермудт";
  theUILang.country[ "bn" ] = "Бруней";
  theUILang.country[ "bo" ] = "Болівія";
@@ -158,6 +157,7 @@
  theUILang.country[ "mc" ] = "Монако";
  theUILang.country[ "md" ] = "Молдова";
  theUILang.country[ "me" ] = "Чорногорія";
+ theUILang.country[ "mf" ] = "Сен-Мартен";
  theUILang.country[ "mg" ] = "Мадагаскар";
  theUILang.country[ "mh" ] = "Маршалові Острови";
  theUILang.country[ "mk" ] = "Північна Македонія";
@@ -226,7 +226,6 @@
  theUILang.country[ "sr" ] = "Суринам";
  theUILang.country[ "ss" ] = "Південний Судан";
  theUILang.country[ "st" ] = "Сан-Томе і Принсіпі";
- theUILang.country[ "su" ] = "Росія";
  theUILang.country[ "sv" ] = "Сальвадор";
  theUILang.country[ "sx" ] = "Сінт-Мартен";
  theUILang.country[ "sy" ] = "Сирія";
@@ -249,7 +248,7 @@
  theUILang.country[ "tz" ] = "Танзанія";
  theUILang.country[ "ua" ] = "Україна";
  theUILang.country[ "ug" ] = "Уганда";
- theUILang.country[ "uk" ] = "Великобританія";
+ theUILang.country[ "um" ] = "Зовнішні малі острови США";
  theUILang.country[ "un" ] = "Невідомо";
  theUILang.country[ "us" ] = "США";
  theUILang.country[ "uy" ] = "Уругвай";

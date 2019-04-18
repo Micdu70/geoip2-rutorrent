@@ -16,7 +16,6 @@
  theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Ascension-sziget";
  theUILang.country[ "ad" ] = "Andorra";
  theUILang.country[ "ae" ] = "Egyesült Arab Emirátusok";
  theUILang.country[ "af" ] = "Afganisztán";
@@ -24,7 +23,6 @@
  theUILang.country[ "ai" ] = "Anguilla";
  theUILang.country[ "al" ] = "Albánia";
  theUILang.country[ "am" ] = "Örményország";
- theUILang.country[ "an" ] = "Holland Antillák";
  theUILang.country[ "ao" ] = "Angola";
  theUILang.country[ "aq" ] = "Antarctica";
  theUILang.country[ "ar" ] = "Argentína";
@@ -43,6 +41,7 @@
  theUILang.country[ "bh" ] = "Bahrein";
  theUILang.country[ "bi" ] = "Burundi";
  theUILang.country[ "bj" ] = "Benin";
+ theUILang.country[ "bl" ] = "Saint-Barthélemy";
  theUILang.country[ "bm" ] = "Bermuda";
  theUILang.country[ "bn" ] = "Brunei";
  theUILang.country[ "bo" ] = "Bolívia";
@@ -157,7 +156,8 @@
  theUILang.country[ "ma" ] = "Marokkó";
  theUILang.country[ "mc" ] = "Monaco";
  theUILang.country[ "md" ] = "Moldova";
- theUILang.country[ "me" ] = "Montenegró" 
+ theUILang.country[ "me" ] = "Montenegró";
+ theUILang.country[ "mf" ] = "Saint-Martin";
  theUILang.country[ "mg" ] = "Madagascar";
  theUILang.country[ "mh" ] = "Marshall-szigetek";
  theUILang.country[ "mk" ] = "Észak-Macedónia";
@@ -226,7 +226,6 @@
  theUILang.country[ "sr" ] = "Suriname";
  theUILang.country[ "ss" ] = "Dél-Szudán";
  theUILang.country[ "st" ] = "São Tomé és Príncipe";
- theUILang.country[ "su" ] = "Oroszország";
  theUILang.country[ "sv" ] = "Salvador";
  theUILang.country[ "sx" ] = "Sint Maarten";
  theUILang.country[ "sy" ] = "Szíria";
@@ -249,7 +248,7 @@
  theUILang.country[ "tz" ] = "Tanzánia";
  theUILang.country[ "ua" ] = "Ukrajna";
  theUILang.country[ "ug" ] = "Uganda";
- theUILang.country[ "uk" ] = "Egyesült Királyság";
+ theUILang.country[ "um" ] = "Az Amerikai Egyesült Államok lakatlan külbirtokai";
  theUILang.country[ "un" ] = "Ismeretlen";
  theUILang.country[ "us" ] = "Egyesült Államok";
  theUILang.country[ "uy" ] = "Uruguay";

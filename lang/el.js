@@ -16,7 +16,6 @@
  theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Νήσος Αναλήψεως";
  theUILang.country[ "ad" ] = "Ανδόρρα";
  theUILang.country[ "ae" ] = "Ηνωμένα Αραβικά Εμιράτα";
  theUILang.country[ "af" ] = "Αφγανιστάν";
@@ -24,7 +23,6 @@
  theUILang.country[ "ai" ] = "Ανγκουίλα";
  theUILang.country[ "al" ] = "Αλβανία";
  theUILang.country[ "am" ] = "Αρμενία";
- theUILang.country[ "an" ] = "Ολλανδικές Αντίλλες";
  theUILang.country[ "ao" ] = "Ανγκόλα";
  theUILang.country[ "aq" ] = "Ανταρκτική";
  theUILang.country[ "ar" ] = "Αργεντινή";
@@ -43,6 +41,7 @@
  theUILang.country[ "bh" ] = "Μπαχρέιν";
  theUILang.country[ "bi" ] = "Μπουρούντι";
  theUILang.country[ "bj" ] = "Μπενίν";
+ theUILang.country[ "bl" ] = "Άγιος Βαρθολομαίος";
  theUILang.country[ "bm" ] = "Βερμούδες";
  theUILang.country[ "bn" ] = "Μπρουνέι";
  theUILang.country[ "bo" ] = "Βολιβία";
@@ -158,6 +157,7 @@
  theUILang.country[ "mc" ] = "Μονακό";
  theUILang.country[ "md" ] = "Μολδαβία";
  theUILang.country[ "me" ] = "Μαυροβούνιο";
+ theUILang.country[ "mf" ] = "Άγιος Μαρτίνος";
  theUILang.country[ "mg" ] = "Μαδαγασκάρη";
  theUILang.country[ "mh" ] = "Νήσοι Μάρσαλ";
  theUILang.country[ "mk" ] = "Βόρεια Μακεδονία";
@@ -226,7 +226,6 @@
  theUILang.country[ "sr" ] = "Σουρινάμ";
  theUILang.country[ "ss" ] = "Νότιο Σουδάν";
  theUILang.country[ "st" ] = "Σάο Τομέ και Πρίνσιπε";
- theUILang.country[ "su" ] = "Ρωσία";
  theUILang.country[ "sv" ] = "Ελ Σαλβαδόρ";
  theUILang.country[ "sx" ] = " Άγιος Μαρτίνος";
  theUILang.country[ "sy" ] = "Συρία";
@@ -249,7 +248,7 @@
  theUILang.country[ "tz" ] = "Τανζανία";
  theUILang.country[ "ua" ] = "Ουκρανία";
  theUILang.country[ "ug" ] = "Ουγκάντα";
- theUILang.country[ "uk" ] = "Ηνωμένο Βασίλειο";
+ theUILang.country[ "um" ] = "Απομακρυσμένες Νησίδες των Ηνωμένων Πολιτειών";
  theUILang.country[ "un" ] = "Άγνωστο";
  theUILang.country[ "us" ] = "Ηνωμένες Πολιτείες Αμερικής";
  theUILang.country[ "uy" ] = "Ουρουγουάη";

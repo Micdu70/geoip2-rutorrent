@@ -16,7 +16,6 @@
  theUILang.databaseError	= "GeoIP2 plugin: bad or corrupted GeoLite2 database found.";
 
  theUILang.country = new Array();
- theUILang.country[ "ac" ] = "Ascension";
  theUILang.country[ "ad" ] = "Andorra";
  theUILang.country[ "ae" ] = "Verenigde Arabische Emiraten";
  theUILang.country[ "af" ] = "Afghanistan";
@@ -24,7 +23,6 @@
  theUILang.country[ "ai" ] = "Anguilla";
  theUILang.country[ "al" ] = "Albanië";
  theUILang.country[ "am" ] = "Armenië";
- theUILang.country[ "an" ] = "Nederlandse Antillen";
  theUILang.country[ "ao" ] = "Angola";
  theUILang.country[ "aq" ] = "Antarctica";
  theUILang.country[ "ar" ] = "Argentinië";
@@ -43,6 +41,7 @@
  theUILang.country[ "bh" ] = "Bahrein";
  theUILang.country[ "bi" ] = "Burundi";
  theUILang.country[ "bj" ] = "Benin";
+ theUILang.country[ "bl" ] = "Saint-Barthélemy";
  theUILang.country[ "bm" ] = "Bermuda";
  theUILang.country[ "bn" ] = "Brunei";
  theUILang.country[ "bo" ] = "Bolivia";
@@ -130,7 +129,7 @@
  theUILang.country[ "it" ] = "Italië";
  theUILang.country[ "je" ] = "Jersey";
  theUILang.country[ "jm" ] = "Jamaica";
- theUILang.country[ "jo" ] = "Jordan"
+ theUILang.country[ "jo" ] = "Jordan";
  theUILang.country[ "jp" ] = "Japan";
  theUILang.country[ "ke" ] = "Kenia";
  theUILang.country[ "kg" ] = "Kirgizië";
@@ -158,6 +157,7 @@
  theUILang.country[ "mc" ] = "Monaco";
  theUILang.country[ "md" ] = "Moldavië";
  theUILang.country[ "me" ] = "Montenegro";
+ theUILang.country[ "mf" ] = "Sint-Maarten";
  theUILang.country[ "mg" ] = "Madagascar";
  theUILang.country[ "mh" ] = "Marshalleilanden";
  theUILang.country[ "mk" ] = "Noord-Macedonië";
@@ -213,7 +213,7 @@
  theUILang.country[ "sb" ] = "Salomonseilanden";
  theUILang.country[ "sc" ] = "de Seychellen";
  theUILang.country[ "sd" ] = "Soedan";
- theUILang.country[ "se" ] = "Zweden"
+ theUILang.country[ "se" ] = "Zweden";
  theUILang.country[ "sg" ] = "Singapore";
  theUILang.country[ "sh" ] = "Sint-Helena";
  theUILang.country[ "si" ] = "Slovenië";
@@ -226,7 +226,6 @@
  theUILang.country[ "sr" ] = "Suriname";
  theUILang.country[ "ss" ] = "Zuid-Soedan";
  theUILang.country[ "st" ] = "Sao Tomé en Principe";
- theUILang.country[ "su" ] = "Rusland";
  theUILang.country[ "sv" ] = "El Salvador";
  theUILang.country[ "sx" ] = "Sint Maarten";
  theUILang.country[ "sy" ] = "Syrië";
@@ -249,7 +248,7 @@
  theUILang.country[ "tz" ] = "Tanzania";
  theUILang.country[ "ua" ] = "Oekraine";
  theUILang.country[ "ug" ] = "Uganda";
- theUILang.country[ "uk" ] = "Verenigd Koninkrijk";
+ theUILang.country[ "um" ] = "Kleine afgelegen eilanden van de Verenigde Staten";
  theUILang.country[ "un" ] = "Onbekend";
  theUILang.country[ "us" ] = "Verenigde Staten";
  theUILang.country[ "uy" ] = "Uruguay";
@@ -259,7 +258,7 @@
  theUILang.country[ "ve" ] = "Venezuela";
  theUILang.country[ "vg" ] = "Britse Maagdeneilanden";
  theUILang.country[ "vi" ] = "Amerikaanse Maagdeneilanden";
- theUILang.country[ "vn" ] = "Viet Nam";
+ theUILang.country[ "vn" ] = "Vietnam";
  theUILang.country[ "vu" ] = "Vanuatu";
  theUILang.country[ "wf" ] = "Wallis en Futuna";
  theUILang.country[ "ws" ] = "Samoa";
