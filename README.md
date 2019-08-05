@@ -38,7 +38,7 @@ To clone directly from this git repository, run this command in the rutorrent/pl
 
 > **You need to disable or remove the original 'geoip' plugin to allow this one to work.**
 
-> **Info:** `GeoLite2 Country` database (2019-01-01) included.
+> **Info:** `GeoLite2 Country` database (2019-07-30) included.
 
 ### Update or change database
 

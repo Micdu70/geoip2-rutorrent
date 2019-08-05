@@ -3,8 +3,14 @@
 
 	set_time_limit(0);
 	require_once( '../../php/util.php' );
+	require_once( '../../php/settings.php' );
 	require_once( "sqlite.php" );
 	eval( getPluginConf( 'geoip2' ) );
+
+	$theSettings = rTorrentSettings::get();
+
+	if($theSettings->isPluginRegistered('hostname'))
+		$retrieveHost = false;
 
 	function isValidCode( $country )
 	{
