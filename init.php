@@ -10,7 +10,7 @@ else
 
 	eval( getPluginConf( $plugin["name"] ) );
 
-	$retrieveCountry = ($retrieveCountry && PHP_VERSION_ID >= 50400 && extension_loaded('phar'));
+	$retrieveCountry = ($retrieveCountry && version_compare(PHP_VERSION, '5.4.0', '>=') && extension_loaded('phar'));
 	if($retrieveCountry)
 	{
 		require_once 'geoip2.phar';
