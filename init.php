@@ -35,9 +35,9 @@ else
 	}
 	$retrieveComments = ($retrieveComments && sqlite_exists());
 
-	if( $retrieveCountry || $retrieveComments )
+	if( $retrieveCountry || $retrieveHost || $retrieveComments )
 	{
-		$theSettings->registerPlugin($plugin["name"],$pInfo["perms"]);
+		$theSettings->registerPlugin($plugin["name"], $pInfo["perms"]);
 		if($retrieveCountry)
 			$jResult .= "plugin.retrieveCountry = true;";
 		if($retrieveComments)
