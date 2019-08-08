@@ -24,6 +24,7 @@ To be able to use the plugin:
 To be able to display country/city:
 
 * PHP >= 5.4.0
+* PHP 'ctype' extension
 * PHP 'phar' extension
 
 ### Installation
