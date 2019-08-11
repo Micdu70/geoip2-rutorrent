@@ -14,7 +14,7 @@
 
 	function isValidCode( $country )
 	{
-		return( !empty($country) && (strlen($country)==2) && !ctype_digit($country[1]) );
+		return( !empty($country) && (strlen($country)==2) && !is_numeric($country[1]) );
 	}
 
 	$retrieveCountry = ($retrieveCountry && version_compare(PHP_VERSION, '5.4.0', '>=') && extension_loaded('phar'));
