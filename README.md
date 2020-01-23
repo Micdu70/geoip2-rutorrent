@@ -24,7 +24,7 @@ To be able to use the plugin:
 To be able to display country/city:
 
 * PHP >= 5.4.0
-* PHP 'ctype' extension
+* PHP 'bcmath' extension
 * PHP 'phar' extension
 
 ### Installation
@@ -39,9 +39,11 @@ To clone directly from this git repository, run this command in the rutorrent/pl
 
 > **You need to disable or remove the original 'geoip' plugin to allow this one to work.**
 
-> **Info:** `GeoLite2 Country` database (2019-07-30) included.
+> **Info:** `GeoLite2 Country` database (2019-11-26) included.
 
 ### Update or change database
+
+**UPDATE FROM DECEMBER 30, 2019: It now requires to sign up to be able to download GeoLite2 databases.**
 
 GeoLite2 Free Downloadable Databases: https://dev.maxmind.com/geoip/geoip2/geolite2/#Downloads
 
