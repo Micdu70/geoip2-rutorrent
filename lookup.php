@@ -17,7 +17,7 @@
 		return( !empty($country) && (strlen($country)==2) && !is_numeric($country[1]) );
 	}
 
-	$retrieveCountry = ($retrieveCountry && version_compare(PHP_VERSION, '5.4.0', '>=') && extension_loaded('phar'));
+	$retrieveCountry = ($retrieveCountry && version_compare(PHP_VERSION, '5.4.0', '>=') && extension_loaded('bcmath') && extension_loaded('phar'));
 	if($retrieveCountry)
 	{
 		require_once 'geoip2.phar';
