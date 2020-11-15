@@ -15,8 +15,18 @@ else
 	{
 		require_once 'geoip2.phar';
 
-		$cityDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-City.mmdb';
-		$countryDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-Country.mmdb';
+		if($usePluginDatabase)
+		{
+			$cityDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-City.mmdb';
+			$countryDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-Country.mmdb';
+		}
+		else
+		{
+			if(empty($cityDbFile))
+				$cityDbFile = "/usr/share/GeoIP/GeoLite2-City.mmdb";
+			if(empty($countryDbFile))
+				$countryDbFile = "/usr/share/GeoIP/GeoLite2-Country.mmdb";
+		}
 
 		try{
 			if(is_file($cityDbFile) && is_readable($cityDbFile))

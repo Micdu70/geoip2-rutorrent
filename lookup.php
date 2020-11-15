@@ -22,8 +22,18 @@
 	{
 		require_once 'geoip2.phar';
 
-		$cityDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-City.mmdb';
-		$countryDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-Country.mmdb';
+		if($usePluginDatabase)
+		{
+			$cityDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-City.mmdb';
+			$countryDbFile = $rootPath.'/plugins/geoip2/database/GeoLite2-Country.mmdb';
+		}
+		else
+		{
+			if(empty($cityDbFile))
+				$cityDbFile = "/usr/share/GeoIP/GeoLite2-City.mmdb";
+			if(empty($countryDbFile))
+				$countryDbFile = "/usr/share/GeoIP/GeoLite2-Country.mmdb";
+		}
 
 		try{
 			if(is_file($cityDbFile) && is_readable($cityDbFile))
@@ -102,8 +112,8 @@
 					if(!empty($city))
 						$country.=" (".implode(', ',$city).")";
 					$host = $value;
-                                        if($retrieveHost)
-                                        {
+					if($retrieveHost)
+					{
 						if($dns)
 						{
 							$pkt = pack("n", $randbase + $idx) . "\1\0\0\1\0\0\0\0\0\0";
@@ -126,18 +136,18 @@
 						}
 						else
 						{
-                                                	$host = gethostbyaddr(preg_replace('/^\[?(.+?)\]?$/', '$1', $value));
-	                                                if(empty($host) || (strlen($host)<2))
-        	                                                $host = $value;
+							$host = gethostbyaddr(preg_replace('/^\[?(.+?)\]?$/', '$1', $value));
+							if(empty($host) || (strlen($host)<2))
+								$host = $value;
 						}
-                                        }
-                                        $comment = '';
-                                        if($retrieveComments)
-                                        {
-        					require_once( 'ip_db.php' );
-        					$db = new ipDB();
-        					$comment = $db->get($value);
-                                        }
+					}
+					$comment = '';
+					if($retrieveComments)
+					{
+						require_once( 'ip_db.php' );
+						$db = new ipDB();
+						$comment = $db->get($value);
+					}
 					$ret[] = array( "ip"=>$value, "info"=>array( "country"=>$country, "host"=>$host, "comment"=>$comment ) );
 				}
 			}
