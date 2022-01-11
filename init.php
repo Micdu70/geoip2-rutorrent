@@ -8,9 +8,9 @@ else
 {
 	require_once( "sqlite.php" );
 
-	eval( getPluginConf( $plugin["name"] ) );
+	eval( FileUtil::getPluginConf( $plugin["name"] ) );
 
-	$retrieveCountry = ($retrieveCountry && version_compare(PHP_VERSION, '5.4.0', '>=') && extension_loaded('bcmath') && extension_loaded('phar'));
+	$retrieveCountry = ($retrieveCountry && (PHP_VERSION_ID >= 50400) && extension_loaded('bcmath') && extension_loaded('phar'));
 	if($retrieveCountry)
 	{
 		require_once 'geoip2.phar';

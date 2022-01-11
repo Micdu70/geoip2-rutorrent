@@ -5,7 +5,7 @@
 	require_once( '../../php/util.php' );
 	require_once( '../../php/settings.php' );
 	require_once( "sqlite.php" );
-	eval( getPluginConf( 'geoip2' ) );
+	eval( FileUtil::getPluginConf( 'geoip2' ) );
 
 	$theSettings = rTorrentSettings::get();
 
@@ -17,7 +17,7 @@
 		return( !empty($country) && (strlen($country)==2) && !is_numeric($country[1]) );
 	}
 
-	$retrieveCountry = ($retrieveCountry && version_compare(PHP_VERSION, '5.4.0', '>=') && extension_loaded('bcmath') && extension_loaded('phar'));
+	$retrieveCountry = ($retrieveCountry && (PHP_VERSION_ID >= 50400) && extension_loaded('bcmath') && extension_loaded('phar'));
 	if($retrieveCountry)
 	{
 		require_once 'geoip2.phar';
@@ -200,4 +200,4 @@
 			fclose($dns);
 		}
 	}
-	cachedEcho(safe_json_encode($ret),"application/json");
+	CachedEcho::send(JSON::safeEncode($ret),"application/json");

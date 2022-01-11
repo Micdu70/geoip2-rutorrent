@@ -2,12 +2,12 @@
 
 function sqlite_exists()
 {
-	return( (version_compare(PHP_VERSION, '5.4.0', '<')) ? function_exists("sqlite_open") : class_exists("SQLite3") );
+	return( (PHP_VERSION_ID < 50400) ? function_exists("sqlite_open") : class_exists("SQLite3", false) );
 }
 
 function sqlite_open1($filename, $mode = 0666, &$error_msg)
 {
-	if (version_compare(PHP_VERSION, '5.4.0', '<'))
+	if (PHP_VERSION_ID < 50400)
 	{
 		$dbhandle = sqlite_open($filename, $mode, $error_msg);
 	}
@@ -27,7 +27,7 @@ function sqlite_open1($filename, $mode = 0666, &$error_msg)
 
 function sqlite_close1($dbhandle)
 {
-	if (version_compare(PHP_VERSION, '5.4.0', '<'))
+	if (PHP_VERSION_ID < 50400)
 	{
 		sqlite_close($dbhandle);
 	}
@@ -39,7 +39,7 @@ function sqlite_close1($dbhandle)
 
 function sqlite_exec1($dbhandle, $query, &$error_msg)
 {
-	if (version_compare(PHP_VERSION, '5.4.0', '<'))
+	if (PHP_VERSION_ID < 50400)
 	{
 		@sqlite_exec($dbhandle, $query, $error_msg);
 	}
@@ -59,7 +59,7 @@ function sqlite_exec1($dbhandle, $query, &$error_msg)
 function sqlite_query1($dbhandle, $query, &$error_msg)
 {
 	$result = '';
-	if (version_compare(PHP_VERSION, '5.4.0', '<'))
+	if (PHP_VERSION_ID < 50400)
 	{
 		$res = sqlite_unbuffered_query($dbhandle, $query, SQLITE_ASSOC, $error_msg);
 		if($res!==false)
@@ -81,10 +81,10 @@ function sqlite_query1($dbhandle, $query, &$error_msg)
 
 function sqlite_escape_string1($item)
 {
-	return( (version_compare(PHP_VERSION, '5.4.0', '<')) ? sqlite_escape_string($item) : SQLite3::escapeString($item) );
+	return( (PHP_VERSION_ID < 50400) ? sqlite_escape_string($item) : SQLite3::escapeString($item) );
 }
 
 function sqlite_db_name()
 {
-	return( (version_compare(PHP_VERSION, '5.4.0', '<')) ? "peers.dat" : "peers3.dat" );
+	return( (PHP_VERSION_ID < 50400) ? "peers.dat" : "peers3.dat" );
 }
