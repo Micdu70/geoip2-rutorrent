@@ -19,6 +19,7 @@ This plugin...
 
 To be able to use the plugin:
 
+* Use ruTorrent **v4.0**
 * PHP 'json' extension
 
 To be able to display country/city:
@@ -39,7 +40,7 @@ To clone directly from this git repository, run this command in the rutorrent/pl
 
 > **You need to disable or remove the original 'geoip' plugin to allow this one to work.**
 
-> **Info:** `GeoLite2 Country` database (2022-05-17) included.
+> **Info:** `GeoLite2 Country` database (2023-01-06) included.
 
 ### Update or change database
 
